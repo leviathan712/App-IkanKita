@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="981dp"
+        android:layout_marginStart="54dp">
+
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="94dp"
+            android:layout_height="86dp"
+            android:layout_gravity="center"
+            android:background="@drawable/circular_image_background"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_profile_placeholder"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.443"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.09" />
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="189dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="52dp"
+            android:text="Nama Pengguna"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.443"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_image" />
+
+        <Button
+            android:id="@+id/change_photo_button"
+            android:layout_width="177dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="34dp"
+            android:text="Ganti Foto"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.419"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_name"
+            app:layout_constraintVertical_bias="0.023" />
+
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="177dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:text="Logout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.422"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tombol_riwayat_pesanan"
+            app:layout_constraintVertical_bias="0.184" />
+
+        <ImageButton
+            android:id="@+id/tombol_riwayat_pesanan"
+            android:layout_width="326dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="41dp"
+            android:background="@drawable/component_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.193"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/change_photo_button"
+            app:layout_constraintVertical_bias="0.005"
+            tools:srcCompat="@drawable/component_1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

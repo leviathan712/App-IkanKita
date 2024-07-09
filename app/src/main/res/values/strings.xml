@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ikan Kita</string>
+    <string name="Wave_image">Wave Image</string>
+    <string name="Logo">Logo</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="Masuk_button">Masuk</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Masuk_register">Registrasi</string>
+    <string name="Register">Register</string>
+    <string name="textview">Selamat Datang Kembali</string>
+    <string name="username_main">username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="selamat_datang">Selamat datang!,\n</string>
+    <string name="Ikan_air_tawar_tombol">air tawar</string>
+    <string name="Ikan_air_laut_tombol">air laut</string>
+    <string name="kategori">Kategori</string>
+    <string name="button_ikan_air_tawar">TODO</string>
+    <string name="profile_image">Profile Image</string>
+</resources>
+

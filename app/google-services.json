@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "438986416472",
+    "firebase_url": "https://e-comm-ikan-kita-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "e-comm-ikan-kita",
+    "storage_bucket": "e-comm-ikan-kita.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438986416472:android:dfe60ddd1e8d97af82452d",
+        "android_client_info": {
+          "package_name": "com.example.ecomikankita"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBG93M0MeGWGwOOHgJ9r2juEPiSUYIgco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
